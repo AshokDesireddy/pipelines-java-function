@@ -6,7 +6,7 @@ pool:
 
 variables:
   serviceConnectionToAzure: ServiceAdd
-  appName: demo-testing-azsxs
+  appName: Azure Java Functions
   functionAppName: demo-testing-azsxs
 
 steps:
