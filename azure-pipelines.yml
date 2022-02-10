@@ -33,7 +33,8 @@ steps:
 - task: AzureFunctionApp@1
   displayName: Azure Function App deploy
   inputs:
-    azureSubscription: $(serviceConnectionToAzure)
-    appType: functionApp
-    appName: $(appName)
-    package: $(build.artifactstagingdirectory)/$(appName)
+    azureSubscription: 'Free Trial(80743111-9007-4aae-8053-28c9f9518ba6)'
+    appType: 'functionApp'
+    appName: 'demo-testing-azsxs'
+    package: '$(build.artifactstagingdirectory)/$(appName)'
+    deploymentMethod: 'auto'
