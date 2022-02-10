@@ -6,7 +6,7 @@ pool:
 
 variables:
   serviceConnectionToAzure: ServiceAdd
-  appName: Service
+  appName: demo-testing-azsxs
   functionAppName: demo-testing-azsxs
 
 steps:
